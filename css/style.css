@@ -1,0 +1,298 @@
+*{margin: 0%;
+padding: 0%;
+}
+
+header{
+background-image:url(../images/background.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 90vh;
+padding-top: 20px;
+position: relative;
+}
+
+.hg{
+    height: 90vh;
+   align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    padding: 0%;
+    
+}
+
+.navbar-light .navbar-nav .nav-item{
+    padding-left: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link::before{
+position:absolute;
+content: '';
+height: 2px;
+width: 0px;
+background: #008ed6;
+left: 0;
+bottom: -10px;
+transition: .4s all ease-in-out;
+
+}
+
+.navbar-light .navbar-nav .nav-link::after{
+    position:absolute;
+    content: '';
+    height: 2px;
+    width: 0px;
+    background: #008ed6;
+    right: 0;
+    bottom:-10px;
+    transition: .4s all ease-in-out;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 45px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 45px;
+}
+
+.header-content{
+
+}
+
+.header_content h5{
+font-size: 16px;
+color: #008ed6;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+}
+.header_content h1{
+    color: #fff;
+    font-size: 48px;
+}
+.header_content p{
+color: #999999;
+margin-bottom: 50px;
+
+}
+.btn-download{
+background-color: #008ed6;
+color: #fff;
+}
+.btn-download:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-view{
+border: 1px solid #fff;
+color: #fff;
+margin-left: 20px;
+
+}
+
+.btn-view:hover{
+    
+    border: 1px solid #fff;
+    background-color: #008ed6;
+    color: #fff;
+}
+
+.phone{
+position: absolute;
+bottom: 0;
+left: 55%;
+
+
+
+}
+.phone img{
+height: 500px;
+}
+.features-section{
+margin-bottom: 50px;
+
+}
+.features{
+   
+    border-bottom: 1px solid rgb(231, 219, 219);
+    margin-bottom: 60px;
+  
+    
+}
+.heading{
+    margin-bottom: 100px;
+}
+.heading h5{
+font-size: 14px;
+color: #008ed6;
+padding-top: 50px;
+letter-spacing: 1.5px;
+}
+.heading h1{
+font-size: 36px;
+
+}
+.heading span{
+content: '';
+display: inline-block;
+width: 50px;
+height: 2px;
+position: relative;
+
+
+
+}
+.heading span::before{
+    content: '';
+    position: absolute;
+    width: 0px ;
+    top: 0;
+    height: 100%;
+    left: 0;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+.heading span::after{
+    content: '';
+    position: absolute;
+    width: 0px ;
+    top: 0;
+    height: 100%;
+    right: 0;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+}
+
+.features-section:hover  .heading span::before{
+    width:23px;
+}
+
+
+.features-section:hover  .heading span::after{
+    width: 23px;
+}
+
+.features-content{
+    text-align: center;
+}
+
+.features-content h3{
+    font-size: 24px;
+   
+}
+.features-content p{
+color: #999999;
+}
+.icon{
+ color: #008ed6; 
+ border: 1px solid rgb(221, 205, 205);
+ border-radius: 50%;
+ width: 80px;
+ height: 80px;
+ line-height: 80px;
+ font-size: 25px;
+ margin: auto;
+ text-align: center;
+ 
+ 
+}
+
+.details{
+    margin-top: 60px;
+}
+
+.details h5{
+    color:#008ed6 ;
+    font-size: 14px;
+    letter-spacing: 1.5px;  
+}
+
+.details h1{
+    font-size: 36px;
+}
+.details p{
+    font-size: 14px;
+    color: #999999;
+}
+.details span{
+    content: '';
+    display: inline-block;
+    width:50px;
+    height: 2px;
+    position: relative;
+
+}
+.details span::after{
+    content: '';
+    position: absolute;
+    width: 0px ;
+    top: 0;
+    height: 100%;
+    left: 0;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+    }
+
+.details span::before{
+    content: '';
+    position: absolute;
+    width: 0px ;
+    top: 0;
+    height: 100%;
+    right: 0;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+
+
+.device_content:hover .details span::after{
+    width: 23px;
+}
+
+    .device_content:hover .details span::before{
+        width: 23px;
+    }
+  
+  .list_icon p{
+      color: #1b1b1b;
+      
+
+ 
+  }
+.icon_two{
+    color: #008ed6;
+    margin-right: 8px;
+
+}
+.list_icon ul{
+list-style: none;
+padding: 0%;
+
+}
+
+.customize_content{
+    height: 400px;
+    background-color: #F2F2F2;
+    margin-top: 50px;
+}
+
+.details{
+    padding-top: 50px;
+}
+
+.iphone{
+    padding-top: 20px;
+}
